@@ -4,7 +4,7 @@ import  java.io.File ;
 
 public class WordCounter {
     public static void main(String[] args) throws Exception {
-        // 🔹 Le chemin vers le fichier texte
+        //  Le chemin vers le fichier texte
         File file = new File("TestExercice3.txt");
 
         Scanner filescanner = new Scanner(file);  // Ouvre le fichier
